@@ -1,0 +1,59 @@
+.header{
+    background-color: purple;
+    height: 70px;
+    padding: 11px;
+    display : flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo{
+    background-color: #ff7f7f;
+    height: 35px;
+
+}
+.logoAndText{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.buttonsContainer{
+    display: flex;
+    justify-content: end;
+    
+}
+.hideVisibilityCss{
+    visibility: hidden;
+}
+.modalClass{
+    width: 450px;
+    height : 550px;
+    position: absolute;
+     left: 50%;
+     top: 50%;
+  transform: translate(-50%, -50%);
+    background-color: white;
+    border : black solid ;
+}
+.upperpanel{
+    width: 450px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    line-height: 100px;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    height: 250px;
+}
+.registerform{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    height: 400px;
+}

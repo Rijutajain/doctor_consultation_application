@@ -1,0 +1,64 @@
+.outsideTab{
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+}
+.doctorList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upperpanel{
+    width: 450px;
+    height: 70px;
+    background-color: purple;
+    color: white;
+    line-height: 100px;
+}
+.viewDetailsUpperpanel{
+    width: 550px;
+    height: 70px;
+    background-color: purple;
+    color: white;
+    line-height: 100px;
+}
+.modalClass{
+    width: 450px;
+    height : 550px;
+    position: absolute;
+     left: 50%;
+     top: 50%;
+  transform: translate(-50%, -50%);
+    background-color: white;
+    border : black solid ;
+}
+.RatingmodalClass{
+    width: 450px;
+    height : 380px;
+    position: absolute;
+     left: 50%;
+     top: 50%;
+  transform: translate(-50%, -50%);
+    background-color: white;
+    border : black solid ;
+}
+.viewDetailsModalClass{
+    width: 550px;
+    height : 450px;
+    position: absolute;
+     left: 50%;
+     top: 50%;
+  transform: translate(-50%, -50%);
+    background-color: white;
+    border : black solid ;
+}
+.hideRequiredVisibility{
+    visibility: hidden;
+}
+.RatingAndLabel{
+    display: flex;
+    flex-direction: row;
+}
